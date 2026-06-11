@@ -1,18 +1,21 @@
 #!/bin/bash
 publisher_jar=publisher.jar
 input_cache_path=./input-cache/
-echo Checking internet connection...
-curl -sSf tx.fhir.org > /dev/null
+#echo Checking internet connection...
+#curl -sSf tx.fhir.org > /dev/null
 
-if [ $? -eq 0 ]; then
-	echo "Online"
-	txoption=""
-else
-	echo "Offline"
-	txoption="-tx n/a"
-fi
+#if [ $? -eq 0 ]; then
+#	echo "Online"
+#	txoption=""
+#else
+#	echo "Offline"
+#	txoption="-tx n/a"
+#fi
 
+#echo "$txoption"
+txoption="-tx https://terminologieserver.nl/tx/fhir"
 echo "$txoption"
+export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
 
 publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
