@@ -1,195 +1,9 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en-AU", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Angina",
-  "code" : "194828000",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/32506021000036107/version/20240831",
-  "severity" : "error",
-  "error" : "Wrong Display Name 'Angina (disorder)' for http://snomed.info/sct#194828000. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
-    }],
-    "severity" : "error",
-    "code" : "invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-display"
-      }],
-      "text" : "Wrong Display Name 'Angina (disorder)' for http://snomed.info/sct#194828000. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')"
-    },
-    "location" : ["Coding.display"],
-    "expression" : ["Coding.display"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en-AU", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/32506021000036107/version/20240831",
-  "severity" : "error",
-  "error" : "Wrong Display Name 'Myocardial infarction (disorder)' for http://snomed.info/sct#22298006. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
-    }],
-    "severity" : "error",
-    "code" : "invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-display"
-      }],
-      "text" : "Wrong Display Name 'Myocardial infarction (disorder)' for http://snomed.info/sct#22298006. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')"
-    },
-    "location" : ["Coding.display"],
-    "expression" : ["Coding.display"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en-CA", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Angina",
-  "code" : "194828000",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en-CA", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Angina",
-  "code" : "194828000",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "version" : "http://snomed.info/sct/11000146104",
+  "code" : "73211009"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -197,16 +11,15 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "nl-NL"
   }]
 }}####
 v: {
-  "display" : "Angina",
-  "code" : "194828000",
+  "display" : "Diabetes mellitus",
+  "code" : "73211009",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#194828000 (\"Angina (disorder)\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#194828000\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" (content = complete)\r\n",
+  "version" : "http://snomed.info/sct/11000146104/version/20260531",
+  "server" : "https://terminologieserver.nl/tx/fhir",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -216,9 +29,9 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "version" : "http://snomed.info/sct/11000146104",
+  "code" : "73211009"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -226,20 +39,792 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "nl-NL"
   }]
 }}####
 v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
+  "display" : "diabetes mellitus",
+  "code" : "73211009",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#22298006 (\"Myocardial infarction (disorder)\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#22298006\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" (content = complete)\r\n",
+  "version" : "http://snomed.info/sct/11000146104/version/20260531",
+  "server" : "https://terminologieserver.nl/tx/fhir",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/11000146104",
+    "code" : "73211009",
+    "display" : "diabetes mellitus"
+  }]
+}, "langs":"nl-NL", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "nl-NL"
+  }]
+}}####
+v: {
+  "display" : "diabetes mellitus",
+  "code" : "73211009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/11000146104/version/20260531",
+  "server" : "https://terminologieserver.nl/tx/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://terminologieserver.nl/tx/fhir"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "display-comment"
+      }],
+      "text" : "'diabetes mellitus' is the default display; the code system http://snomed.info/sct has no Display Names for the language nl-NL"
+    },
+    "location" : ["CodeableConcept.coding[0].display"],
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/11000146104",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "73211009"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : terminologieserver.nl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:dba15b25-56c3-46e2-b0c8-6a4c9de2e72c",
+    "timestamp" : "2026-06-11T01:48:37+02:00",
+    "total" : 135,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000146104/version/20260531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000146104/version/20260531"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "716362006",
+      "display" : "aandoening van gingiva gelijktijdig met diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "530558861000132104",
+      "display" : "atypische diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2751001",
+      "display" : "diabetes bij fibrocalculeuze pancreatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237600004",
+      "display" : "diabetes bij fibrocalculeuze pancreatitis bij ondervoeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11687002",
+      "display" : "diabetes gravidarum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40801000119106",
+      "display" : "diabetes gravidarum als complicatie bij zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75022004",
+      "display" : "diabetes gravidarum klasse A1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "46894009",
+      "display" : "diabetes gravidarum klasse A2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40791000119105",
+      "display" : "diabetes gravidarum post partum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10753491000119101",
+      "display" : "diabetes gravidarum tijdens partus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5969009",
+      "display" : "diabetes mellitus bij genetisch syndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75524006",
+      "display" : "diabetes mellitus bij ondervoeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276560009",
+      "display" : "diabetes mellitus bij pasgeborene klein voor amenorroeduur"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "42954008",
+      "display" : "diabetes mellitus bij receptorafwijking"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51002006",
+      "display" : "diabetes mellitus bij ziekte van pancreas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91352004",
+      "display" : "diabetes mellitus door afwijkende structuur van insuline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "737212004",
+      "display" : "diabetes mellitus door chemische stof"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1367802006",
+      "display" : "diabetes mellitus door chronische pancreatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427089005",
+      "display" : "diabetes mellitus door cystische fibrose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609568004",
+      "display" : "diabetes mellitus door genetisch bepaalde deficiënte bètacelfunctie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609569007",
+      "display" : "diabetes mellitus door genetisch bepaalde deficiënte insulinewerking"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105401000119101",
+      "display" : "diabetes mellitus door letsel van pancreas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "408540003",
+      "display" : "diabetes mellitus door niet-steroïdale geneesmiddelen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "124101000146106",
+      "display" : "diabetes mellitus door thiazidediureticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "703136005",
+      "display" : "diabetes mellitus in remissie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "57886004",
+      "display" : "diabetes mellitus met eiwittekort door ondervoeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "890171006",
+      "display" : "diabetes mellitus met neiging tot ketoacidose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445260006",
+      "display" : "diabetes mellitus na transplantatie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "199223000",
+      "display" : "diabetes mellitus tijdens zwangerschap, partus en/of kraamperiode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "46635009",
+      "display" : "diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "703137001",
+      "display" : "diabetes mellitus type 1 in remissie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16971000146105",
+      "display" : "diabetes mellitus type 1 met chronische pomptherapie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "190368000",
+      "display" : "diabetes mellitus type 1 met ulcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "190372001",
+      "display" : "diabetes mellitus type 1 ontstaan op volwassen leeftijd"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31321000119102",
+      "display" : "diabetes mellitus type 1 zonder retinopathie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "44054006",
+      "display" : "diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "164971000119101",
+      "display" : "diabetes mellitus type 2 gereguleerd met dieet"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "703138006",
+      "display" : "diabetes mellitus type 2 in remissie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16981000146107",
+      "display" : "diabetes mellitus type 2 met chronische pomptherapie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237599002",
+      "display" : "diabetes mellitus type 2 met insulinebehandeling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81531005",
+      "display" : "diabetes mellitus type 2 met obesitas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "190389009",
+      "display" : "diabetes mellitus type 2 met ulcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "359642000",
+      "display" : "diabetes mellitus type 2 zonder obesitas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1481000119100",
+      "display" : "diabetes mellitus type 2 zonder retinopathie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20341000146107",
+      "display" : "diazoxidegeïnduceerde diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24203005",
+      "display" : "extreme insulineresistentie met acanthosis nigricans, hirsutisme en afwijking van insulinereceptor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1217068008",
+      "display" : "fulminante diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260221000146106",
+      "display" : "gecompliceerde 'latent autoimmune diabetes in adults'"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "47601000146100",
+      "display" : "gecompliceerde 'maternally inherited diabetes and deafness'"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260231000146108",
+      "display" : "gecompliceerde 'maturity-onset diabetes of the young'"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250751000146101",
+      "display" : "gecompliceerde diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250791000146108",
+      "display" : "gecompliceerde diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250781000146106",
+      "display" : "gecompliceerde diabetes mellitus type 1 met chronische pomptherapie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32211000146104",
+      "display" : "gecompliceerde diabetes mellitus type 1 tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250731000146107",
+      "display" : "gecompliceerde diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250761000146103",
+      "display" : "gecompliceerde diabetes mellitus type 2 met chronische pomptherapie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32221000146109",
+      "display" : "gecompliceerde diabetes mellitus type 2 tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240141000146102",
+      "display" : "gecompliceerde insuline-afhankelijke diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709147009",
+      "display" : "gingivitis gelijktijdig met diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444074000",
+      "display" : "goed gereguleerde diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444110003",
+      "display" : "goed gereguleerde diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "123763000",
+      "display" : "Houssay's syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11530004",
+      "display" : "instabiele diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "290002008",
+      "display" : "instabiele diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445353002",
+      "display" : "instabiele diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23045005",
+      "display" : "insulineafhankelijke diabetes mellitus type 1A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28032008",
+      "display" : "insulineafhankelijke diabetes mellitus type 1B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237651005",
+      "display" : "insulineresistentie type A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237652003",
+      "display" : "insulineresistentie type B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1303868000",
+      "display" : "intermediaire vorm van syndroom van ontwikkelingsachterstand, epilepsie en neonatale diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "426875007",
+      "display" : "latent autoimmune diabetes in adults"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127012008",
+      "display" : "lipoatrofische diabetes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4783006",
+      "display" : "maternale diabetes mellitus met hypoglykemie met gevolgen voor foetus of neonaat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237619009",
+      "display" : "maternally inherited diabetes and deafness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609561005",
+      "display" : "maturity-onset diabetes of the young"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609562003",
+      "display" : "maturity-onset diabetes of the young type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609577006",
+      "display" : "maturity-onset diabetes of the young type 10"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609578001",
+      "display" : "maturity-onset diabetes of the young type 11"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237604008",
+      "display" : "maturity-onset diabetes of the young type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609570008",
+      "display" : "maturity-onset diabetes of the young type 3"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609571007",
+      "display" : "maturity-onset diabetes of the young type 4"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609572000",
+      "display" : "maturity-onset diabetes of the young type 5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609573005",
+      "display" : "maturity-onset diabetes of the young type 6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609574004",
+      "display" : "maturity-onset diabetes of the young type 7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609575003",
+      "display" : "maturity-onset diabetes of the young type 8"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609576002",
+      "display" : "maturity-onset diabetes of the young type 9"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5368009",
+      "display" : "medicatiegeïnduceerde diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "783722008",
+      "display" : "myopathie en diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49817004",
+      "display" : "neonatale diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405749004",
+      "display" : "Newly diagnosed diabetes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "870528001",
+      "display" : "nieuw gediagnosticeerde diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10754881000119104",
+      "display" : "partus gecompliceerd door diabetes mellitus bij moeder"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "106281000119103",
+      "display" : "partus gecompliceerd door pre-existente diabetes mellitus bij moeder"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237603002",
+      "display" : "passagère neonatale diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609579009",
+      "display" : "passagère neonatale diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609580007",
+      "display" : "passagère neonatale diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609581006",
+      "display" : "passagère neonatale diabetes mellitus type 3"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609565001",
+      "display" : "permanente neonatale diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "199231005",
+      "display" : "pre-existente diabetes mellitus bij ondervoeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1142044000",
+      "display" : "pre-existente diabetes mellitus bij ondervoeding tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609563008",
+      "display" : "pre-existente diabetes mellitus tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "199229001",
+      "display" : "pre-existente diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609564002",
+      "display" : "pre-existente diabetes mellitus type 1 tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "199230006",
+      "display" : "pre-existente diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609567009",
+      "display" : "pre-existente diabetes mellitus type 2 tijdens zwangerschap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33559001",
+      "display" : "Rabson-Mendenhallsyndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8801005",
+      "display" : "secundaire diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237601000",
+      "display" : "secundaire diabetes mellitus met endocriene oorzaak"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "472699005",
+      "display" : "slecht gereguleerde diabetes gravidarum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444073006",
+      "display" : "slecht gereguleerde diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443694000",
+      "display" : "slecht gereguleerde diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "190447002",
+      "display" : "steroïdgeïnduceerde diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "733072002",
+      "display" : "syndroom van alaninurie, microcefalie, dwerggroei, hypoplasie van tandglazuur en diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "720519003",
+      "display" : "syndroom van atherosclerose, doofheid, diabetes, epilepsie en nefropathie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1255271005",
+      "display" : "syndroom van diabetes mellitus type 1 met gehoorverlies en centrale en perifere neurodegeneratie met juveniele aanvang"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "816067005",
+      "display" : "syndroom van diabetes, hypogonadisme, doofheid en verstandelijke beperking"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "111307005",
+      "display" : "syndroom van Donohue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1197592001",
+      "display" : "syndroom van intra-uteriene groeivertraging, kleine gestalte en diabetes beginnend op vroege volwassen leeftijd"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237612000",
+      "display" : "syndroom van lichtgevoelige myoklonie, diabetes mellitus, doofheid, nefropathie en hersendisfunctie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721088003",
+      "display" : "syndroom van ontwikkelingsachterstand, epilepsie en neonatale diabetes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "722206009",
+      "display" : "syndroom van pancreashypoplasie, diabetes mellitus en congenitale misvorming van hart"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "724067006",
+      "display" : "syndroom van permanente neonatale diabetes mellitus en cerebellaire agenesie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "782825008",
+      "display" : "syndroom van primaire microcefalie, epilepsie en permanente neonatale diabetes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "782755007",
+      "display" : "syndroom van primaire microcefalie, lichte verstandelijke beperking en diabetes met aanvang op jonge leeftijd"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237611007",
+      "display" : "syndroom van spieratrofie, ataxie, retinitis pigmentosa en diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "722454003",
+      "display" : "syndroom van verstandelijke beperking, craniofaciale dysmorfie, hypogonadisme en diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237617006",
+      "display" : "thiamineresponsieve megaloblastaire anemie met diabetes mellitus en sensorineurale doofheid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "734022008",
+      "display" : "Wolfram-achtig syndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70694009",
+      "display" : "Wolfram-syndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1285518004",
+      "display" : "Wolfram-syndroom type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1285519007",
+      "display" : "Wolfram-syndroom type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609566000",
+      "display" : "zwangerschap en diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237627000",
+      "display" : "zwangerschap en diabetes mellitus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76751001",
+      "display" : "zwangerschap, partus en/of kraamperiode gecompliceerd door diabetes mellitus bij moeder"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
